@@ -257,8 +257,6 @@ async function displayFavorites() {
           </div>
             `;
         }
-        if (herocard.innerHTML = "") {
-            herocard.innerHTML = "no";
-        }
+       
     }
 }
