@@ -1,0 +1,78 @@
+/* Set background color for the body */
+body {
+    background-color: #221f1f;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Hide scrollbar for webkit browsers */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styling for the main section */
+#main {
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    height: max-content !important; /* Set height to adjust content */
+}
+
+/* Styling for the hero container */
+#hero-container {
+    background-color: #221F1F; /* Background color */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    position: relative; /* Positioning */
+    top: 5rem; /* Offset from the top */
+}
+
+/* Styling for the description */
+.desc {
+    max-width: 90%; /* Set maximum width */
+}
+
+/* Styling for the card */
+.card {
+    position: relative; /* Positioning */
+    left: 40rem; /* Offset from the left */
+    width: 100vw !important; /* Set width to full viewport width */
+    height: max-content; /* Set height to adjust content */
+    display: flex; /* Flex layout */
+    flex-direction: row; /* Row direction */
+}
+
+/* Styling for the hero name */
+.hero-name {
+    margin-bottom: 2rem; /* Margin bottom */
+}
+
+/* Styling for the card image */
+.card-img {
+    max-width: 400px; /* Maximum width */
+    height: 450px; /* Height */
+    border-radius: 5px; /* Border radius */
+}
+
+/* Styling for headings */
+.heading {
+    color: hsl(0, 10%, 38%); /* Heading color */
+}
+
+/* Styling for hero name */
+.hero-name {
+    display: flex; /* Flex layout */
+    flex-direction: row; /* Row direction */
+    justify-content: center; /* Center horizontally */
+    font-size: xx-large; /* Font size */
+}
+
+/* Styling for not found message */
+.not-found {
+    position: relative; /* Positioning */
+    display: flex; /* Flex layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: xx-large; /* Font size */
+    color: Red; /* Text color */
+    font-weight: 900; /* Font weight */
+    top: 4rem; /* Offset from the top */
+    left: 37rem; /* Offset from the left */
+}
